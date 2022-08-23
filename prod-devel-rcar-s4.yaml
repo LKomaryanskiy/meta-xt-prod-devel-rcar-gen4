@@ -32,6 +32,10 @@ components:
         - [IMAGE_FSTYPES_append, " ext4"]
         - [IMAGE_INSTALL_append, " iproute2"]
         - [IMAGE_INSTALL_append, " iproute2-tc"]
+        - [IMAGE_INSTALL_append, " vlan"]
+        - [IMAGE_INSTALL_append, " packagegroup-core-full-cmdline"]
+        - [IMAGE_INSTALL_append, " iperf3"]
+        - [IMAGE_INSTALL_append, " bridge-utils"]
 
       build_target: rcar-image-minimal
       layers:
