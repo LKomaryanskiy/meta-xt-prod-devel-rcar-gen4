@@ -1,0 +1,5 @@
+SRC_URI = "git:///home/leonid/develop/libdaq_yocto/libdaq;protocol=file"
+BRANCH = "master"
+SRCREV = "${AUTOREV}"
+S = "${WORKDIR}/git"
+DISABLE_STATIC = " --disable-static"
