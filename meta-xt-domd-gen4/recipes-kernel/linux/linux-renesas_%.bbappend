@@ -1,9 +1,16 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
+RENESAS_BSP_URL = "git://github.com/LKomaryanskiy/linux.git"
+BRANCH = "${XT_KERNEL_BRANCH}"
+SRCREV = "${XT_KERNEL_REV}"
+
+
 SRC_URI:append = " \
+    file://defconfig \
     file://ixgbe.cfg \
     file://ufs.cfg \
     file://multicast_routing.cfg \
+    file://vsock.cfg \
     file://xen-chosen.dtsi;subdir=git/arch/arm64/boot/dts/renesas \
     file://0001-clk-shmobile-Hide-clock-for-scif3-and-hscif0.patch \
     file://0002-PCIe-MSI-support.patch \

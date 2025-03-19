@@ -14,8 +14,8 @@ variables:
   SOC_FAMILY: "r8a779f0"
   XT_DOMD_CONFIG_NAME: "domd-spider.cfg"
   XT_DOMU_CONFIG_NAME: "domu-spider.cfg"
-  XT_KERNEL_BRANCH: "v5.10.41/rcar-5.1.7.rc11.2-xt"
-  XT_KERNEL_REV: "11e9bb26e0949ed537d7954986f31b90b11b6c47"
+  XT_KERNEL_BRANCH: "v5.10.41/rcar-5.1.7.rc11.2-virtio-xt"
+  XT_KERNEL_REV: "dd5841d756826a5086039a602d667b791a4733d1"
 common_data:
   # Sources used by all yocto-based domains
   sources: &COMMON_SOURCES
