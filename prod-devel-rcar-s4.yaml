@@ -159,6 +159,7 @@ components:
         - [IMAGE_INSTALL:append, " smcroute"]
         - [IMAGE_INSTALL:append, " snort"]
         - [IMAGE_INSTALL:append, " virtio-disk"]
+        - [IMAGE_INSTALL:append, " packagegroup-core-full-cmdline"]
         - [EXTRA_IMAGEDEPENDS:append, " boot-script"]
         - [PREFERRED_VERSION_xen-tools, "4.19.0+git%"]
         - [PREFERRED_VERSION_xen, "4.19.0+git%"]
@@ -208,6 +209,7 @@ components:
         - [XT_KERNEL_BRANCH, "%{XT_KERNEL_BRANCH}"]
         - [XT_KERNEL_REV, "%{XT_KERNEL_REV}"]
         - [IMAGE_INSTALL:append, " iperf3 "]
+        - [IMAGE_INSTALL:append, " packagegroup-core-full-cmdline"]
 
       layers:
         - "../meta-openembedded/meta-oe"
