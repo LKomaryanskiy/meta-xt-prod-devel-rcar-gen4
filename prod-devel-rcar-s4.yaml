@@ -158,6 +158,7 @@ components:
         - [IMAGE_INSTALL:append, " iperf3"]
         - [IMAGE_INSTALL:append, " smcroute"]
         - [IMAGE_INSTALL:append, " snort"]
+        - [IMAGE_INSTALL:append, " virtio-disk"]
         - [EXTRA_IMAGEDEPENDS:append, " boot-script"]
         - [PREFERRED_VERSION_xen-tools, "4.19.0+git%"]
         - [PREFERRED_VERSION_xen, "4.19.0+git%"]
