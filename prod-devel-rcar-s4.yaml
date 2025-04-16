@@ -115,6 +115,8 @@ components:
 
         - [PREFERRED_VERSION_xen-tools, "4.20.0+git%"]
         - [PREFERRED_VERSION_xen, "4.20.0+git%"]
+        - [EXTRA_IMAGE_FEATURES:append, " ssh-server-openssh"]
+        - [IMAGE_INSTALL:append, " xen-tools-xentrace"]
 
 
       layers:
