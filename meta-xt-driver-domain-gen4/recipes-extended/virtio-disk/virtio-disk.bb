@@ -9,10 +9,10 @@ S = "${WORKDIR}/git"
 
 DEPENDS = "xen-tools"
 
-SRCREV = "997f8dcd560043286c6c0175a5718ebea0da5078"
+SRCREV = "08baef363de264f5d9f3976a4da48812ad7aa5bd"
 
 SRC_URI:append = " \
-    git://github.com/lkomaryanskiy/virtio-disk.git;protocol=https;branch=virtio_next \
+    git://github.com/lkomaryanskiy/virtio-disk.git;protocol=https;branch=fixed-and-enabled-map-in-advance \
     file://virtio-disk.service \
 "
 
